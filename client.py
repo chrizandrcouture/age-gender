@@ -1,5 +1,5 @@
 """
-This is just a simple client example. Hack it as much as you want. 
+This is just a simple client example. Hack it as much as you want.
 """
 import argparse
 import io
@@ -134,7 +134,7 @@ def save_annotated_image(
         "genders": genders,
         "ages": ages,
     }
-
+    print(to_dump)
     with open(save_path + ".pkl", "wb") as stream:
         pickle.dump(to_dump, stream)
     logging.info(f"features saved at at {save_path + '.pkl'}")

@@ -5,12 +5,15 @@ __pycache__/
 
 # C extensions
 *.so
+*.mar
 
 # Distribution / packaging
 .Python
 build/
 develop-eggs/
 dist/
+indian_faces/
+results_*/
 downloads/
 eggs/
 .eggs/

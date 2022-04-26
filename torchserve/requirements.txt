@@ -1,0 +1,7 @@
+jsonpickle
+numpy
+pandas
+Pillow
+scipy
+torch==1.9.0
+tqdm
